@@ -1,5 +1,6 @@
-# My-Script
-# DFT计算(全是VASP)用小脚本 不定期更新···有Bug直接联系aixuan1995@163.com
+# VASPtools
+# VASP用小脚本 不定期更新···有Bug直接联系aixuan1995@163.com
+## 19.08.01 从先前仓库转移过来，便于归档维护
 ## 先前脚本用法慢慢更新
 ## 19.06.28 更新两个小脚本
 ### ***cif2posc_pymatgen.py***
