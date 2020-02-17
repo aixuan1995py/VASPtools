@@ -2,7 +2,7 @@
 a=$1
 
 if [ -f OUTCAR ];then
-    if [ "$a" == "1" ];then 
+    if [ "$a" == "1" ];then
         grep ' energy   TOTEN' OUTCAR | awk '{print $5}'
     elif [ "$a" == "2" ];then
         grep '  without' OUTCAR |tail -n 1 |awk '{print $4}'
