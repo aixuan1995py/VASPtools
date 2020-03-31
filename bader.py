@@ -3,6 +3,7 @@
 Created on Tue Mar 31 00:24:34 2020
 
 @author: Xuan Ai
+处理bader电荷运行完之后的ACF.dat文件，把各元素的价电子的数值减去各原子的电荷数，且做平均值输出，并写入bader.dat文件，标准输出为各元素的平均值
 """
 
 import os
