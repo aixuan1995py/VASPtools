@@ -1,6 +1,15 @@
 # VASPtools
 # VASP用小脚本 不定期更新···有Bug直接联系aixuan1995@163.com
+## 诈尸级更新 21.06.16
+
+### ***利用pymatgen从MP上下载ICSD的cif***
+
+#### 运行方式 python3直接运行
+
+#### 用途  从materials project上下载ICSD的cif
+
 ## 诈尸级更新 20.03.31
+
 ### ***bader.py***
 #### 运行方式 python3直接运行
 #### 用途 处理bader电荷运行完之后的ACF.dat文件，把各元素的价电子的数值减去各原子的电荷数，且做平均值输出，并写入bader.dat文件，标准输出为各元素的平均值
